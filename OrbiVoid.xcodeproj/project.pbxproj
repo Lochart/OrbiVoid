@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		952A0C761C3B9999006DA31F /* Explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 952A0C741C3B9999006DA31F /* Explosion.sks */; };
+		952A0C771C3B9999006DA31F /* Explosion.wav in Resources */ = {isa = PBXBuildFile; fileRef = 952A0C751C3B9999006DA31F /* Explosion.wav */; };
+		952A0C791C3BA09F006DA31F /* Background.sks in Resources */ = {isa = PBXBuildFile; fileRef = 952A0C781C3BA09F006DA31F /* Background.sks */; };
+		952A0C7C1C3BA0B0006DA31F /* ORBMenuScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 952A0C7B1C3BA0B0006DA31F /* ORBMenuScene.m */; };
+		9537D36D1C319D2A006CF827 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9537D36C1C319D2A006CF827 /* main.m */; };
+		9537D3701C319D2A006CF827 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9537D36F1C319D2A006CF827 /* AppDelegate.m */; };
+		9537D3731C319D2A006CF827 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 9537D3721C319D2A006CF827 /* GameScene.m */; };
+		9537D3751C319D2A006CF827 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9537D3741C319D2A006CF827 /* GameScene.sks */; };
+		9537D3781C319D2A006CF827 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9537D3771C319D2A006CF827 /* GameViewController.m */; };
+		9537D37B1C319D2A006CF827 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9537D3791C319D2A006CF827 /* Main.storyboard */; };
+		9537D37D1C319D2A006CF827 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9537D37C1C319D2A006CF827 /* Assets.xcassets */; };
+		9537D3801C319D2A006CF827 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9537D37E1C319D2A006CF827 /* LaunchScreen.storyboard */; };
+		9537D38B1C319D2A006CF827 /* OrbiVoidTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9537D38A1C319D2A006CF827 /* OrbiVoidTests.m */; };
+		9537D3961C319D2B006CF827 /* OrbiVoidUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9537D3951C319D2B006CF827 /* OrbiVoidUITests.m */; };
+		95467B6D1C3AB8FA00D00ECE /* Trail.sks in Resources */ = {isa = PBXBuildFile; fileRef = 95467B6B1C3AB8FA00D00ECE /* Trail.sks */; };
+		95467B6E1C3AB8FA00D00ECE /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 95467B6C1C3AB8FA00D00ECE /* spark.png */; };
+		95467B701C3AE6E000D00ECE /* Spawn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 95467B6F1C3AE6E000D00ECE /* Spawn.wav */; };
+		95ED30091C60DC4800648059 /* MyParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 95ED30081C60DC4800648059 /* MyParticle.sks */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9537D3871C319D2A006CF827 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9537D3601C319D2A006CF827 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9537D3671C319D2A006CF827;
+			remoteInfo = OrbiVoid;
+		};
+		9537D3921C319D2B006CF827 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9537D3601C319D2A006CF827 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9537D3671C319D2A006CF827;
+			remoteInfo = OrbiVoid;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		952A0C741C3B9999006DA31F /* Explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Explosion.sks; sourceTree = "<group>"; };
+		952A0C751C3B9999006DA31F /* Explosion.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Explosion.wav; sourceTree = "<group>"; };
+		952A0C781C3BA09F006DA31F /* Background.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Background.sks; sourceTree = "<group>"; };
+		952A0C7A1C3BA0B0006DA31F /* ORBMenuScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORBMenuScene.h; sourceTree = "<group>"; };
+		952A0C7B1C3BA0B0006DA31F /* ORBMenuScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORBMenuScene.m; sourceTree = "<group>"; };
+		9537D3681C319D2A006CF827 /* OrbiVoid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrbiVoid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9537D36C1C319D2A006CF827 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9537D36E1C319D2A006CF827 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9537D36F1C319D2A006CF827 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9537D3711C319D2A006CF827 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		9537D3721C319D2A006CF827 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		9537D3741C319D2A006CF827 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		9537D3761C319D2A006CF827 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		9537D3771C319D2A006CF827 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		9537D37A1C319D2A006CF827 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9537D37C1C319D2A006CF827 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9537D37F1C319D2A006CF827 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9537D3811C319D2A006CF827 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9537D3861C319D2A006CF827 /* OrbiVoidTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrbiVoidTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9537D38A1C319D2A006CF827 /* OrbiVoidTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrbiVoidTests.m; sourceTree = "<group>"; };
+		9537D38C1C319D2A006CF827 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9537D3911C319D2B006CF827 /* OrbiVoidUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrbiVoidUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9537D3951C319D2B006CF827 /* OrbiVoidUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrbiVoidUITests.m; sourceTree = "<group>"; };
+		9537D3971C319D2B006CF827 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95467B6B1C3AB8FA00D00ECE /* Trail.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Trail.sks; sourceTree = "<group>"; };
+		95467B6C1C3AB8FA00D00ECE /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		95467B6F1C3AE6E000D00ECE /* Spawn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Spawn.wav; sourceTree = "<group>"; };
+		95467B711C3AF17B00D00ECE /* CGVector+TC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CGVector+TC.h"; sourceTree = "<group>"; };
+		95ED30081C60DC4800648059 /* MyParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyParticle.sks; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9537D3651C319D2A006CF827 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9537D3831C319D2A006CF827 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9537D38E1C319D2B006CF827 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9537D35F1C319D2A006CF827 = {
+			isa = PBXGroup;
+			children = (
+				9537D36A1C319D2A006CF827 /* OrbiVoid */,
+				9537D3891C319D2A006CF827 /* OrbiVoidTests */,
+				9537D3941C319D2B006CF827 /* OrbiVoidUITests */,
+				9537D3691C319D2A006CF827 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9537D3691C319D2A006CF827 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9537D3681C319D2A006CF827 /* OrbiVoid.app */,
+				9537D3861C319D2A006CF827 /* OrbiVoidTests.xctest */,
+				9537D3911C319D2B006CF827 /* OrbiVoidUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9537D36A1C319D2A006CF827 /* OrbiVoid */ = {
+			isa = PBXGroup;
+			children = (
+				9537D36E1C319D2A006CF827 /* AppDelegate.h */,
+				9537D36F1C319D2A006CF827 /* AppDelegate.m */,
+				9537D3711C319D2A006CF827 /* GameScene.h */,
+				9537D3721C319D2A006CF827 /* GameScene.m */,
+				952A0C7A1C3BA0B0006DA31F /* ORBMenuScene.h */,
+				952A0C7B1C3BA0B0006DA31F /* ORBMenuScene.m */,
+				95467B6B1C3AB8FA00D00ECE /* Trail.sks */,
+				95467B6C1C3AB8FA00D00ECE /* spark.png */,
+				9537D3741C319D2A006CF827 /* GameScene.sks */,
+				952A0C741C3B9999006DA31F /* Explosion.sks */,
+				952A0C751C3B9999006DA31F /* Explosion.wav */,
+				95ED30081C60DC4800648059 /* MyParticle.sks */,
+				952A0C781C3BA09F006DA31F /* Background.sks */,
+				9537D3761C319D2A006CF827 /* GameViewController.h */,
+				9537D3771C319D2A006CF827 /* GameViewController.m */,
+				95467B711C3AF17B00D00ECE /* CGVector+TC.h */,
+				95467B6F1C3AE6E000D00ECE /* Spawn.wav */,
+				9537D3791C319D2A006CF827 /* Main.storyboard */,
+				9537D37C1C319D2A006CF827 /* Assets.xcassets */,
+				9537D37E1C319D2A006CF827 /* LaunchScreen.storyboard */,
+				9537D3811C319D2A006CF827 /* Info.plist */,
+				9537D36B1C319D2A006CF827 /* Supporting Files */,
+			);
+			path = OrbiVoid;
+			sourceTree = "<group>";
+		};
+		9537D36B1C319D2A006CF827 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9537D36C1C319D2A006CF827 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9537D3891C319D2A006CF827 /* OrbiVoidTests */ = {
+			isa = PBXGroup;
+			children = (
+				9537D38A1C319D2A006CF827 /* OrbiVoidTests.m */,
+				9537D38C1C319D2A006CF827 /* Info.plist */,
+			);
+			path = OrbiVoidTests;
+			sourceTree = "<group>";
+		};
+		9537D3941C319D2B006CF827 /* OrbiVoidUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9537D3951C319D2B006CF827 /* OrbiVoidUITests.m */,
+				9537D3971C319D2B006CF827 /* Info.plist */,
+			);
+			path = OrbiVoidUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9537D3671C319D2A006CF827 /* OrbiVoid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9537D39A1C319D2B006CF827 /* Build configuration list for PBXNativeTarget "OrbiVoid" */;
+			buildPhases = (
+				9537D3641C319D2A006CF827 /* Sources */,
+				9537D3651C319D2A006CF827 /* Frameworks */,
+				9537D3661C319D2A006CF827 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OrbiVoid;
+			productName = OrbiVoid;
+			productReference = 9537D3681C319D2A006CF827 /* OrbiVoid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9537D3851C319D2A006CF827 /* OrbiVoidTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9537D39D1C319D2B006CF827 /* Build configuration list for PBXNativeTarget "OrbiVoidTests" */;
+			buildPhases = (
+				9537D3821C319D2A006CF827 /* Sources */,
+				9537D3831C319D2A006CF827 /* Frameworks */,
+				9537D3841C319D2A006CF827 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9537D3881C319D2A006CF827 /* PBXTargetDependency */,
+			);
+			name = OrbiVoidTests;
+			productName = OrbiVoidTests;
+			productReference = 9537D3861C319D2A006CF827 /* OrbiVoidTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9537D3901C319D2B006CF827 /* OrbiVoidUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9537D3A01C319D2B006CF827 /* Build configuration list for PBXNativeTarget "OrbiVoidUITests" */;
+			buildPhases = (
+				9537D38D1C319D2B006CF827 /* Sources */,
+				9537D38E1C319D2B006CF827 /* Frameworks */,
+				9537D38F1C319D2B006CF827 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9537D3931C319D2B006CF827 /* PBXTargetDependency */,
+			);
+			name = OrbiVoidUITests;
+			productName = OrbiVoidUITests;
+			productReference = 9537D3911C319D2B006CF827 /* OrbiVoidUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9537D3601C319D2A006CF827 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Nikolay;
+				TargetAttributes = {
+					9537D3671C319D2A006CF827 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					9537D3851C319D2A006CF827 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 9537D3671C319D2A006CF827;
+					};
+					9537D3901C319D2B006CF827 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 9537D3671C319D2A006CF827;
+					};
+				};
+			};
+			buildConfigurationList = 9537D3631C319D2A006CF827 /* Build configuration list for PBXProject "OrbiVoid" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9537D35F1C319D2A006CF827;
+			productRefGroup = 9537D3691C319D2A006CF827 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9537D3671C319D2A006CF827 /* OrbiVoid */,
+				9537D3851C319D2A006CF827 /* OrbiVoidTests */,
+				9537D3901C319D2B006CF827 /* OrbiVoidUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9537D3661C319D2A006CF827 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95467B701C3AE6E000D00ECE /* Spawn.wav in Resources */,
+				9537D3751C319D2A006CF827 /* GameScene.sks in Resources */,
+				95467B6E1C3AB8FA00D00ECE /* spark.png in Resources */,
+				9537D3801C319D2A006CF827 /* LaunchScreen.storyboard in Resources */,
+				9537D37D1C319D2A006CF827 /* Assets.xcassets in Resources */,
+				952A0C771C3B9999006DA31F /* Explosion.wav in Resources */,
+				95ED30091C60DC4800648059 /* MyParticle.sks in Resources */,
+				952A0C761C3B9999006DA31F /* Explosion.sks in Resources */,
+				952A0C791C3BA09F006DA31F /* Background.sks in Resources */,
+				9537D37B1C319D2A006CF827 /* Main.storyboard in Resources */,
+				95467B6D1C3AB8FA00D00ECE /* Trail.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9537D3841C319D2A006CF827 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9537D38F1C319D2B006CF827 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9537D3641C319D2A006CF827 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9537D3781C319D2A006CF827 /* GameViewController.m in Sources */,
+				9537D3701C319D2A006CF827 /* AppDelegate.m in Sources */,
+				9537D3731C319D2A006CF827 /* GameScene.m in Sources */,
+				9537D36D1C319D2A006CF827 /* main.m in Sources */,
+				952A0C7C1C3BA0B0006DA31F /* ORBMenuScene.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9537D3821C319D2A006CF827 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9537D38B1C319D2A006CF827 /* OrbiVoidTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9537D38D1C319D2B006CF827 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9537D3961C319D2B006CF827 /* OrbiVoidUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9537D3881C319D2A006CF827 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9537D3671C319D2A006CF827 /* OrbiVoid */;
+			targetProxy = 9537D3871C319D2A006CF827 /* PBXContainerItemProxy */;
+		};
+		9537D3931C319D2B006CF827 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9537D3671C319D2A006CF827 /* OrbiVoid */;
+			targetProxy = 9537D3921C319D2B006CF827 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9537D3791C319D2A006CF827 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9537D37A1C319D2A006CF827 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9537D37E1C319D2A006CF827 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9537D37F1C319D2A006CF827 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9537D3981C319D2B006CF827 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9537D3991C319D2B006CF827 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9537D39B1C319D2B006CF827 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OrbiVoid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Umbrella.OrbiVoid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9537D39C1C319D2B006CF827 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OrbiVoid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Umbrella.OrbiVoid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9537D39E1C319D2B006CF827 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = OrbiVoidTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Umbrella.OrbiVoidTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OrbiVoid.app/OrbiVoid";
+			};
+			name = Debug;
+		};
+		9537D39F1C319D2B006CF827 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OrbiVoidTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Umbrella.OrbiVoidTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OrbiVoid.app/OrbiVoid";
+			};
+			name = Release;
+		};
+		9537D3A11C319D2B006CF827 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = OrbiVoidUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Umbrella.OrbiVoidUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OrbiVoid;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		9537D3A21C319D2B006CF827 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OrbiVoidUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Umbrella.OrbiVoidUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OrbiVoid;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9537D3631C319D2A006CF827 /* Build configuration list for PBXProject "OrbiVoid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9537D3981C319D2B006CF827 /* Debug */,
+				9537D3991C319D2B006CF827 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9537D39A1C319D2B006CF827 /* Build configuration list for PBXNativeTarget "OrbiVoid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9537D39B1C319D2B006CF827 /* Debug */,
+				9537D39C1C319D2B006CF827 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9537D39D1C319D2B006CF827 /* Build configuration list for PBXNativeTarget "OrbiVoidTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9537D39E1C319D2B006CF827 /* Debug */,
+				9537D39F1C319D2B006CF827 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9537D3A01C319D2B006CF827 /* Build configuration list for PBXNativeTarget "OrbiVoidUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9537D3A11C319D2B006CF827 /* Debug */,
+				9537D3A21C319D2B006CF827 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9537D3601C319D2A006CF827 /* Project object */;
+}
